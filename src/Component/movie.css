@@ -1,0 +1,70 @@
+.home-page {
+  background-color: black;
+  color: white;
+  margin-top: -22px;
+  margin-left: -18px;
+  margin-right: -16px;
+  padding-left: 18px;
+  padding-top: 40px;
+  height: 500vh;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 26px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.movie-list {
+  margin-top: -36px;
+  color: rgb(223, 56, 56);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  margin-top: -48px;
+}
+
+input {
+  padding: 10px;
+  padding-right: 300px;
+}
+
+.search-button {
+  padding: 8px;
+  color: black;
+  border: none;
+  font-weight: 900;
+}
+
+img {
+  height: 320px;
+  width: 240px;
+  margin-top: 80px;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nominating-button {
+  background-color: black;
+  color: rgb(223, 56, 56);
+  border: black;
+  cursor: pointer;
+}
+
+.nominating-button.nominated {
+  text-decoration-line: line-through;
+  cursor: not-allowed;
+}
+
+.title-size {
+  font-weight: 1200;
+}
