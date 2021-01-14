@@ -20,7 +20,7 @@ class Movie extends Component {
 this.setState({loading : true});
 
     Axios.get(
-      `http://www.omdbapi.com/?i=tt3896198&apikey=cf61d779&type=movie&s=${this.state.searchText}`
+      `https://www.omdbapi.com/?i=tt3896198&apikey=cf61d779&type=movie&s=${this.state.searchText}`
     ).then((result) => {
       this.setState({ movies: result.data.Search,loading:false });
     });
